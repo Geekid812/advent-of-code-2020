@@ -2,6 +2,6 @@
 bin
 obj
 
-# Java stuff
+# Java & Kotlin stuff
 .idea
 out
