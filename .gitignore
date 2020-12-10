@@ -1,3 +1,7 @@
 # C Sharp stuff
 bin
 obj
+
+# Java stuff
+.idea
+out
