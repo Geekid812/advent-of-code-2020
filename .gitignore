@@ -5,3 +5,6 @@ obj
 # Java & Kotlin stuff
 .idea
 out
+
+# Rockstar stuff
+rockstar

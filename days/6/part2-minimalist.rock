@@ -1,0 +1,72 @@
+Let sum be 0
+Let fillTheAnswers be true
+Rock answers
+Rock groupAnswers
+Rock tempGroupAnswers
+Listen to input
+While input ain't nothing
+    While input ain't nothing
+        Cut input into chars
+        While chars ain't nothing
+            Roll chars into char
+            Let checkCount be 0
+            Let result be false
+            Let checkDupe be answers at checkCount
+            While checkDupe ain't nothing
+                If char is checkDupe
+                    Let result be true
+                    Break it down
+
+                Build checkCount up
+                Let checkDupe be answers at checkCount
+
+            If result is false
+                Rock answers with char
+
+
+        If fillTheAnswers
+            Let fillTheAnswers be false
+            Let index be 0
+            Let element be answers at index
+            While element ain't nothing
+                Rock groupAnswers with element
+                Build index up
+                Let element be answers at index
+
+
+        While groupAnswers ain't nothing
+            Roll groupAnswers into answer
+            Let checkCount be 0
+            Let checkDupe be answers at checkCount
+            While checkDupe ain't nothing
+                If answer is checkDupe
+                    Rock tempGroupAnswers with answer
+                    Break it down
+
+                Build checkCount up
+                Let checkDupe be answers at checkCount
+
+
+        Let index be 0
+        Let element be tempGroupAnswers at index
+        While element ain't nothing
+            Rock groupAnswers with element
+            Build index up
+            Let element be tempGroupAnswers at index
+
+        While tempGroupAnswers ain't nothing
+            Roll tempGroupAnswers
+
+        While answers ain't nothing
+            Roll answers
+
+        Listen to input
+
+    Let sum be sum with groupAnswers
+    While groupAnswers ain't nothing
+        Roll groupAnswers
+
+    Let fillTheAnswers be true
+    Listen to input
+
+Give back sum
